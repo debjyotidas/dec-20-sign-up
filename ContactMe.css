@@ -1,0 +1,63 @@
+body{
+margin:0;
+padding:0;
+text-align:center;
+background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(himalaya.jpg);	
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+height: 98vh;
+background-repeat: no-repeat;
+}
+html {
+    font-size: 62.5%;
+}
+.contact-title{
+	color:whitesmoke;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	margin-top: 7rem;
+}
+
+}
+h1{
+	font-size:32px;
+	/*line-height: 10px;*/
+}
+h2{
+	font-size: :16px;
+
+}
+form{
+	transition: all 4s ease-in-out;
+	text-align: center;
+	margin-top: 6rem;
+}
+.form-control{
+	width:60rem;
+	background: transparent;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color:whitesmoke;
+	font-size: 1.8rem;
+	margin-bottom: 1.6rem; 
+}
+input{
+	height:45px;
+}
+form .submit{
+	background:#ff5722;
+	border-color:transparent;
+	color:whitesmoke;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height:50px;
+	margin-top: 20px;
+	font-weight:bold;
+}
+form .submit:hover{
+	background-color:#f44336;
+	cursor:pointer;
+
+}
