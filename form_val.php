@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
 
   // Validate empty or less than 3 characters
   if(empty($username) || strlen($username) < 3) {
-    echo "<p>Error: Enter a Valid Name </p>";
+    echo "<h4>Error: Enter a Valid Name </h4>";
   }
 
   // Email
@@ -14,7 +14,7 @@ if(isset($_POST['submit'])){
 
   // Validate empty or email
   if(empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    echo "<p>Error: Please provide a valid email address</p>";
+    echo "<h4>Error: Please provide a valid email address</h4>";
   }
 
   // Password
@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
 
   // Validate empty or pattern
   if(empty($password) || preg_match($pattern, $password) === 0) {
-    echo "<p>Error: Password is invalid</p>";
+    echo "<h4>Error: Password is invalid</h4>";
   }
 }
 
