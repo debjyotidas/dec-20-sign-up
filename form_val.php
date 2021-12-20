@@ -57,7 +57,9 @@ if(isset($_POST['submit'])){
 		<h2>Always There to Help You!</h2>
 	</div>
 	<div class="contact-form">
-		<form autocomplete="off" method="post" action="">
+		<form autocomplete="off" method="post" action="<?php 
+         echo htmlspecialchars($_SERVER["PHP_SELF"]); 
+     ?>">
 		<p>
 		      <label for="username">Name*</label><br>	      
               <input type="text" name="username" class="form-control">
